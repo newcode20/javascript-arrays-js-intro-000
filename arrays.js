@@ -11,13 +11,13 @@ function addElementToEndOfArray(chocolateBars, element){
   return [...chocolateBars, element];
 }
 
-function destructivelyAddElementToEndOfArray(chocolatebars, element){
+function destructivelyAddElementToEndOfArray(chocolateBars, element){
   chocolatebars.push(element);
-  return chocolatebars;
+  return chocolateBars;
 }
-function accessElementInArray(chocolatebars, index){
-return  chocolatebars[index];
+function accessElementInArray(chocolateBars, index){
+return  chocolateBars[index];
 }
-function destructivelyRemoveElementFromEndOfArray(chocolatebars){
-  return chocolatebars.shift();
+function destructivelyRemoveElementFromEndOfArray(chocolateBars){
+  return chocolateBars.shift();
 }
