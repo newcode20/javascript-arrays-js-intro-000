@@ -23,7 +23,8 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift();
   return chocolateBars;
 }
-function removeElementFromBeginningOfArray(chocolateBars){
-  chocolateBars.slice(1);
-  return chocolateBars;
+var list[1, 2, 3]
+function removeElementFromBeginningOfArray(list){
+list.slice(0);
+  return list;
 }
